@@ -1,0 +1,32 @@
+.rodape{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    & p{
+        position: absolute;
+        z-index: 3;
+        bottom: .5rem;
+        color: var(--branco);
+        margin: 0;
+    }
+    & div{
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        &:first-child{
+            position: absolute;
+            z-index: 2;
+            bottom: 0px;
+        }
+        &:last-child{
+            position: absolute;
+            z-index: 1;
+            bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.header{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+
+    & nav{
+        display: flex;
+    }
+
+    &__home{
+        text-decoration: none;
+        color: var(--branco);
+        border-bottom: .5px solid var(--branco);
+        font-size: .8rem;
+        font-weight: 400;
+    }
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+@media (max-width: 425px) {
+    .headerNav{
+        & nav{
+            display: none;
+        }
+    }
+}
