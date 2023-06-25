@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import HeaderLink from './HeaderLink'
-import { NavLink } from 'react-router-dom'
 import styles from './HeaderNav.module.scss'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {BiExit} from 'react-icons/bi'

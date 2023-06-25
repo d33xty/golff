@@ -26,7 +26,7 @@ export default function FaleConosco() {
                     <br></br>
                     <p>Redes socias:</p>
                     <p>Instagram:<a href="https://www.instagram.com/supermercadossupergolff/">acesse aqui</a></p>
-                    <p style={{marginBottom: '4remf'}}>Facebook:<a href="https://pt-br.facebook.com/ssupergolff/">acesse aqui</a></p>
+                    <p style={{marginBottom: '8rem'}}>Facebook:<a href="https://pt-br.facebook.com/ssupergolff/">acesse aqui</a></p>
                 </TextoSimples>
             </section>
         </>
