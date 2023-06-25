@@ -31,7 +31,7 @@ export default function Comunicacao() {
                         <br></br>
                         <br></br>
                         <div style={{textAlign: 'center'}}>
-                            <img src='/imgs/infografico.png' alt='infografico empresarial'></img>
+                            <img style={{width: '100%'}} src='/imgs/infografico.png' alt='infografico empresarial'></img>
                         </div>
                     </p>
                 </TextoSimples>

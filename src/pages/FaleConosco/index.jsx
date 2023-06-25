@@ -24,11 +24,9 @@ export default function FaleConosco() {
                     Sábado: 8h às 11h, exceto domingos e feriados.</p>
                     <br></br>
                     <br></br>
-                    <div style={{marginBottom: '4rem'}}>
-                        <p>Redes socias:</p>
-                        <p>Instagram:<a href="https://www.instagram.com/supermercadossupergolff/">https://www.instagram.com/supermercadossupergolff/</a></p>
-                        <p>Facebook:<a href="https://pt-br.facebook.com/ssupergolff/">https://pt-br.facebook.com/ssupergolff/</a></p>
-                    </div>
+                    <p>Redes socias:</p>
+                    <p>Instagram:<a href="https://www.instagram.com/supermercadossupergolff/">acesse aqui</a></p>
+                    <p style={{marginBottom: '4remf'}}>Facebook:<a href="https://pt-br.facebook.com/ssupergolff/">acesse aqui</a></p>
                 </TextoSimples>
             </section>
         </>

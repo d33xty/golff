@@ -10,6 +10,7 @@
     justify-content: space-between;
     padding: 1rem 2.5rem;
     align-items: center;
+    position: relative;
 
     & nav{
         display: flex;
@@ -23,7 +24,7 @@
         font-weight: 400;
     }
 
-    & button{
+    &__button{
         background-color: transparent;
         border: none;
         outline: 0;
@@ -38,8 +39,30 @@
     justify-content: center;
     align-items: center;
     height: 350px;
+}
 
-    
+.menuArea{
+    display: none;
+    background-color: var(--branco);
+    border-radius: 15px;
+    padding: 1rem .5rem;
+    padding-top: 2rem;
+    align-items: end;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    z-index: 3;
+    text-align: end;
+
+    &__exit{
+        top: 5px;
+        right: 1rem;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: 0;
+        padding: 0;
+    }
 }
 
 @media (max-width: 425px) {
