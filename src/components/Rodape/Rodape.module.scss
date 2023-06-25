@@ -4,13 +4,13 @@
     height: 200px;
     display: flex;
     justify-content: center;
-    margin-top: -2rem;
     & p{
         position: absolute;
         z-index: 3;
         bottom: .5rem;
         color: var(--branco);
         margin: 0;
+        font-size: .8rem;
     }
     & div{
         width: 100%;
