@@ -8,21 +8,21 @@ import Lista from '../../components/Lista'
 export default function Inicio() {
     const listaItens = [
         {
-            item: 'valores',
+            item: 'missão',
             lista: [
-                "ética profissional e respeito em todas as nossas relações, agindo de forma íntegra e transparente em todas as nossas interações com clientes, fornecedores e colaboradores.",
-                "Capacitação e desenvolvimento dos nossos colaboradores, promovendo um ambiente de trabalho inclusivo, incentivando o aprendizado contínuo e o crescimento profissional.",
-                "Melhoria contínua dos processos, buscando constantemente maneiras de aprimorar a eficiência, qualidade e produtividade em todas as áreas do nosso negócio.",
-                "Credibilidade e qualidade dos produtos e serviços prestados, garantindo que nossos clientes recebam produtos de alta qualidade e um atendimento excepcional."
+                "Oferecer uma ampla gama de produtos de qualidade a preços acessíveis, proporcionando escolhas acessíveis para nossos clientes.",
+                "Prestar um atendimento diferenciado e eficiente, garantindo a satisfação e fidelidade dos nossos clientes.",
+                "Contribuir ativamente para o desenvolvimento da nossa região, promovendo empregos, apoiando fornecedores locais.",
+                "Ser uma empresa ética, responsável e comprometida com a qualidade dos produtos e serviços que oferecemos."
             ]
         },
         {
-            item: 'valores',
+            item: 'visão',
             lista: [
-                "ética profissional e respeito em todas as nossas relações, agindo de forma íntegra e transparente em todas as nossas interações com clientes, fornecedores e colaboradores.",
-                "Capacitação e desenvolvimento dos nossos colaboradores, promovendo um ambiente de trabalho inclusivo, incentivando o aprendizado contínuo e o crescimento profissional.",
-                "Melhoria contínua dos processos, buscando constantemente maneiras de aprimorar a eficiência, qualidade e produtividade em todas as áreas do nosso negócio.",
-                "Credibilidade e qualidade dos produtos e serviços prestados, garantindo que nossos clientes recebam produtos de alta qualidade e um atendimento excepcional."
+                "Tornar a marca Super Golff uma referência em atendimento e qualidade no comércio varejista da nossa região, sendo reconhecidos como líderes nesses aspectos.",
+                "Ser reconhecidos como a melhor opção de preço na nossa região, proporcionando aos nossos clientes uma excelente relação custo-benefício.",
+                "Valorizar e fortalecer os laços com nossos clientes, fornecedores e colaboradores, construindo relacionamentos sólidos baseados na confiança, respeito e parceria.",
+                "Construir uma marca sólida e confiável, que seja sinônimo de excelência, valor e satisfação para nossos clientes."
             ]
         },
         {
@@ -35,7 +35,7 @@ export default function Inicio() {
             ]
         }
     ]
-    console.log(listaItens[1]);
+    console.log(listaItens[2]);
     return (
         <>
             
