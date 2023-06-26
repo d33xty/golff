@@ -17,7 +17,8 @@ export default function HeaderNav({children, imagem}) {
                     <HeaderLink color={'var(--branco)'} url={'/noticia'}>Notícia</HeaderLink>
                     <HeaderLink color={'var(--branco)'} url={'/contato'}>Fale Conosco!</HeaderLink>
                 </nav>
-                <button className={styles.headerNav__button} onClick={() => SetAtivo(true)}><AiOutlineMenu></AiOutlineMenu></button>
+                <button className={styles.headerNav__button} onClick={() => SetAtivo(true)}><AiOutlineMenu size={20
+                }></AiOutlineMenu></button>
                 <div style={ativo ? {display: 'inline-block'} : {display: 'none'}} className={styles.menuArea }>
                     <button onClick={() => SetAtivo(false)} className={styles.menuArea__exit}><BiExit color='#000' size={20}></BiExit></button>
                     <HeaderLink color={'var(--preto)'} url={'/portifolio'}>Portfólio</HeaderLink>
